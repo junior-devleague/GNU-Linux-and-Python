@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Treasure Hunt | JDLA GNU/Linux & Python </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <!--  Load bootswatch-based Morea theme file. -->
+  <link rel="stylesheet" href="/JDLA-GNU-Linux-and-Python/css/themes/lumen/bootstrap.min.css">
+  <link rel="stylesheet" href="/JDLA-GNU-Linux-and-Python/css/style.css">
+  <link rel="stylesheet" href="/JDLA-GNU-Linux-and-Python/css/syntax.css">
+  <link rel="shortcut icon" href="/JDLA-GNU-Linux-and-Python/favicon.ico" type="image/x-icon"/>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.2.0/respond.js"></script>
+  <![endif]-->
+
+  <!-- Load Bootstrap JavaScript components -->
+  <script src="//code.jquery.com/jquery.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+  
+  <script type="text/javascript"
+          src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+  
+
+  <script>
+    $(window).load(function () {
+      // If on a page associated with a navbar item, make its navbar item 'active'.
+      $('.navbar-nav').find('a[href="' + location.pathname + '"]').parents('li').addClass('active');
+    });
+  </script>
+
+</head>
+<body>
+<!-- Responsive navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <!--  Display three horizontal lines when navbar collapsed. -->
+        <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/JDLA-GNU-Linux-and-Python/index.html"> JDLA GNU/Linux & Python </a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        
+        <li><a href="/JDLA-GNU-Linux-and-Python/modules/">Modules</a></li>
+        
+        <li><a href="/JDLA-GNU-Linux-and-Python/outcomes/">Outcomes</a></li>
+        
+        
+        <li><a href="/JDLA-GNU-Linux-and-Python/readings/">Readings</a></li>
+        
+        
+        <li><a href="/JDLA-GNU-Linux-and-Python/experiences/">Experiences</a></li>
+        
+        
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="breadcrumb-bar">
+  <div class="container">
+    <ol class="breadcrumb">
+      
+      <li><a href="/JDLA-GNU-Linux-and-Python/">Home</a></li>
+      <li><a href="/JDLA-GNU-Linux-and-Python/modules">Modules</a></li>
+      <li><a href="/JDLA-GNU-Linux-and-Python/modules/intro-to-command-line">Intro to Command Line</a></li>
+      <li class="active">Treasure Hunt</li>
+    </ol>
+  </div>
+</div>
+
+
+<div class="container">
+  <h1 id="treasure-hunt">Treasure Hunt</h1>
+
+<p>For our final exercise, you will use the commands you’ve learned, as well as critical thinking, logic, and mathematical ability (which are all crucial in programming) to traverse a tree of directories in a treasure hunt.</p>
+
+<p>Download the necessary files by typing the following into your terminal:</p>
+
+<p><code class="highlighter-rouge">cd ~/Downloads</code></p>
+
+<p><code class="highlighter-rouge">git clone https://github.com/junior-devleague/TreasureHunt.git</code></p>
+
+<h3 id="how-to-play">How to play</h3>
+
+<p>Begin by <code class="highlighter-rouge">cd</code>’ing into the “<em>TreasureHunt</em>” directory and reading “<em>rules.txt</em>”.</p>
+
+<p>Basically, each directory will have a riddle or question you must solve. The sub-directories are your possible answers, so when you solve a problem, <code class="highlighter-rouge">cd</code> into the answer (which is the name of the directory). Immediately <code class="highlighter-rouge">ls</code> and read the riddle/question every time you enter a new directory.</p>
+
+<p><strong>Note: Don’t just guess and randomly <code class="highlighter-rouge">cd</code>. There are false, misleading paths that will set you back by taking you deeper down to a dead end if you answer incorrectly.</strong></p>
+
+<hr />
+
+<p>When you are done with this exercise, show one of your instructors Linus the pirate’s hidden treasure and then move on to the next module, <a href="https://junior-devleague.github.io/JDLA-Web-Development/modules/basic-html/">“Basic HTML”</a>.</p>
+
+
+</div>
+
+
+
+
+<script src="/JDLA-GNU-Linux-and-Python/js/scrollIfAnchor.js"></script>
+
+<div class="footer-background hidden-print">
+  <footer>
+    <div class="container page-footer">
+      
+      <p>GNU/Linux &amp; Python | Junior DevLeague Academy |
+junior@devleague.com</p>
+
+      
+      <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: lumen)<br>
+        Last update on: <span>2016-09-18 21:47:21 -1000</span></p>
+
+      <p style="margin: 0">
+        
+        2 modules
+        
+        | 4 outcomes
+        
+        
+        | 5 readings
+        
+        
+        | 4 experiences
+        
+        
+      </p>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

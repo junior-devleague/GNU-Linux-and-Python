@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Paths | JDLA GNU/Linux & Python </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <!--  Load bootswatch-based Morea theme file. -->
+  <link rel="stylesheet" href="/JDLA-GNU-Linux-and-Python/css/themes/lumen/bootstrap.min.css">
+  <link rel="stylesheet" href="/JDLA-GNU-Linux-and-Python/css/style.css">
+  <link rel="stylesheet" href="/JDLA-GNU-Linux-and-Python/css/syntax.css">
+  <link rel="shortcut icon" href="/JDLA-GNU-Linux-and-Python/favicon.ico" type="image/x-icon"/>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.2.0/respond.js"></script>
+  <![endif]-->
+
+  <!-- Load Bootstrap JavaScript components -->
+  <script src="//code.jquery.com/jquery.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+  
+  <script type="text/javascript"
+          src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+  
+
+  <script>
+    $(window).load(function () {
+      // If on a page associated with a navbar item, make its navbar item 'active'.
+      $('.navbar-nav').find('a[href="' + location.pathname + '"]').parents('li').addClass('active');
+    });
+  </script>
+
+</head>
+<body>
+<!-- Responsive navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <!--  Display three horizontal lines when navbar collapsed. -->
+        <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/JDLA-GNU-Linux-and-Python/index.html"> JDLA GNU/Linux & Python </a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        
+        <li><a href="/JDLA-GNU-Linux-and-Python/modules/">Modules</a></li>
+        
+        <li><a href="/JDLA-GNU-Linux-and-Python/outcomes/">Outcomes</a></li>
+        
+        
+        <li><a href="/JDLA-GNU-Linux-and-Python/readings/">Readings</a></li>
+        
+        
+        <li><a href="/JDLA-GNU-Linux-and-Python/experiences/">Experiences</a></li>
+        
+        
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="breadcrumb-bar">
+  <div class="container">
+    <ol class="breadcrumb">
+      
+      <li><a href="/JDLA-GNU-Linux-and-Python/">Home</a></li>
+      <li><a href="/JDLA-GNU-Linux-and-Python/modules">Modules</a></li>
+      <li><a href="/JDLA-GNU-Linux-and-Python/modules/intro-to-command-line">Intro to Command Line</a></li>
+      <li class="active">Paths</li>
+    </ol>
+  </div>
+</div>
+
+
+<div class="container">
+  <h1 id="paths">Paths</h1>
+
+<p>UNIX operating systems follow a hierarchical directory structure. Before I launch into an explanation of how the UNIX file system works, remember that in UNIX, <strong>everything is a file</strong>. Everything. Even outputs, commands, and devices are files.</p>
+
+<h2 id="file-systems">File Systems</h2>
+
+<p>File systems are how your files are arranged in your computer.</p>
+
+<p><img src="http://faculty.salina.k-state.edu/tim/unix_sg/_images/Unix_file_sys.png" alt="Image of UNIX file system" /></p>
+
+<p>The UNIX file system looks like a tree, where everything starts in the root directory, which is just written as a forward slash: <code class="highlighter-rouge">/</code>. Basically, directories (also known as folders in other OSes) hold files and subdirectories, which hold even more files and subdirectories, and so forth. This tree of directories (and files) is easily navigable as long as you know the path of what you’re looking for.</p>
+
+<h2 id="paths-1">Paths</h2>
+
+<p>A <em>path</em> in the file system traces out the location of a file/directory from a given directory.</p>
+
+<p>You separate directories with slashes which signifies if something is inside of something else. Remember, the very first slash is also a directory: the root directory. For example, <code class="highlighter-rouge">/home/john/Documents/DevLeague/helloworld.py</code> is the path detailing the location of the file “helloworld.py”. It is in the <code class="highlighter-rouge">DevLeague</code> directory, which is in <code class="highlighter-rouge">Documents</code>, which is in <code class="highlighter-rouge">john</code>, which is in <code class="highlighter-rouge">home</code>, which is in <code class="highlighter-rouge">/</code> (the root directory).</p>
+
+<p>A special pathname is <code class="highlighter-rouge">~</code> (tilde). <code class="highlighter-rouge">~</code> stands for <code class="highlighter-rouge">/home/user/</code>. Note that <code class="highlighter-rouge">user</code> is not literally “user”, but the name of the user profile (which is <code class="highlighter-rouge">junior</code> in our computers at Academy). When you first open your terminal, you are placed in your user’s home directory <code class="highlighter-rouge">~</code> by default. It holds everything a normal user would use, the Desktop, Documents, Downloads, Pictures, etc. directories. In the above path example, we didn’t have to write out that entire path. Instead of having the <code class="highlighter-rouge">/home/user</code>, we could’ve just written <code class="highlighter-rouge">~/Documents/DevLeague/helloworld.py</code>.</p>
+
+<p>When writing out paths for anything (such as arguments), you can write them out as <em>absolute</em> or <em>relative</em> paths.</p>
+
+<h4 id="absolute-paths">Absolute Paths</h4>
+
+<p>Absolute paths point to the file/directory regardless of the current working directory (the directory you are in). It always includes the root (or <code class="highlighter-rouge">~</code>). The paths in the examples above are written as absolute paths.</p>
+
+<h4 id="relative-paths">Relative Paths</h4>
+
+<p>Relative paths point to the file/directory starting from the current working directory. You write them without the root <code class="highlighter-rouge">/</code>, and just start off as if it’s continuing from where you currently are in your terminal. For example, if I am in <code class="highlighter-rouge">~/Documents</code> and I wanted to access the “helloworld.py” file, I could just write out <code class="highlighter-rouge">DevLeague/helloworld.py</code>.</p>
+
+<hr />
+
+<p><a href="https://junior-devleague.github.io/JDLA-Web-Development/morea/2_Intro_to_Command_Line/experience-paths.html">Click here</a> to complete the experiential learning exercise “Tracing paths”.</p>
+
+<p>Before moving on to the next reading, <a href="https://junior-devleague.github.io/JDLA-Web-Development/morea/2_Intro_to_Command_Line/experience-terminus.html">click here</a> to complete the experiential learning exercise “Terminus”.</p>
+
+<p>Then, <a href="https://junior-devleague.github.io/JDLA-Web-Development/morea/2_Intro_to_Command_Line/reading-basic-bash.html">click here</a> to move on to the final reading of this module, “Basic Bash”.</p>
+
+<p><br /></p>
+
+</div>
+
+
+
+
+<script src="/JDLA-GNU-Linux-and-Python/js/scrollIfAnchor.js"></script>
+
+<div class="footer-background hidden-print">
+  <footer>
+    <div class="container page-footer">
+      
+      <p>GNU/Linux &amp; Python | Junior DevLeague Academy |
+junior@devleague.com</p>
+
+      
+      <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: lumen)<br>
+        Last update on: <span>2016-09-18 21:47:21 -1000</span></p>
+
+      <p style="margin: 0">
+        
+        2 modules
+        
+        | 4 outcomes
+        
+        
+        | 5 readings
+        
+        
+        | 4 experiences
+        
+        
+      </p>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

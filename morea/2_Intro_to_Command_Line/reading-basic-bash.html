@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Basic Bash | JDLA GNU/Linux & Python </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <!--  Load bootswatch-based Morea theme file. -->
+  <link rel="stylesheet" href="/JDLA-GNU-Linux-and-Python/css/themes/lumen/bootstrap.min.css">
+  <link rel="stylesheet" href="/JDLA-GNU-Linux-and-Python/css/style.css">
+  <link rel="stylesheet" href="/JDLA-GNU-Linux-and-Python/css/syntax.css">
+  <link rel="shortcut icon" href="/JDLA-GNU-Linux-and-Python/favicon.ico" type="image/x-icon"/>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.2.0/respond.js"></script>
+  <![endif]-->
+
+  <!-- Load Bootstrap JavaScript components -->
+  <script src="//code.jquery.com/jquery.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+  
+  <script type="text/javascript"
+          src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+  
+
+  <script>
+    $(window).load(function () {
+      // If on a page associated with a navbar item, make its navbar item 'active'.
+      $('.navbar-nav').find('a[href="' + location.pathname + '"]').parents('li').addClass('active');
+    });
+  </script>
+
+</head>
+<body>
+<!-- Responsive navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <!--  Display three horizontal lines when navbar collapsed. -->
+        <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/JDLA-GNU-Linux-and-Python/index.html"> JDLA GNU/Linux & Python </a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        
+        <li><a href="/JDLA-GNU-Linux-and-Python/modules/">Modules</a></li>
+        
+        <li><a href="/JDLA-GNU-Linux-and-Python/outcomes/">Outcomes</a></li>
+        
+        
+        <li><a href="/JDLA-GNU-Linux-and-Python/readings/">Readings</a></li>
+        
+        
+        <li><a href="/JDLA-GNU-Linux-and-Python/experiences/">Experiences</a></li>
+        
+        
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="breadcrumb-bar">
+  <div class="container">
+    <ol class="breadcrumb">
+      
+      <li><a href="/JDLA-GNU-Linux-and-Python/">Home</a></li>
+      <li><a href="/JDLA-GNU-Linux-and-Python/modules">Modules</a></li>
+      <li><a href="/JDLA-GNU-Linux-and-Python/modules/intro-to-command-line">Intro to Command Line</a></li>
+      <li class="active">Basic Bash</li>
+    </ol>
+  </div>
+</div>
+
+
+<div class="container">
+  <h1 id="basic-bash">Basic Bash</h1>
+
+<p>Before this reading, <a href="https://junior-devleague.github.io/JDLA-Web-Development/morea/2_Intro_to_Command_Line/experience-terminus.html">follow this link</a> and complete the experiential learning exercise “Terminus”.</p>
+
+<p>In Terminus, you performed spells, interacted with items, and traveled to different locations. These are all translatable to Bash, with the spells as commands, items as files, and locations as directories.</p>
+
+<h2 id="basic-bash-commands">Basic Bash commands</h2>
+
+<ul>
+  <li><code class="highlighter-rouge">cd [directory]</code> - change directory into <em>[directory]</em>.</li>
+  <li><code class="highlighter-rouge">ls [directory]</code> - list out the contents of the <em>[directory]</em>. <em>If no argument is given (you just type out <code class="highlighter-rouge">ls</code>), it defaults to the current working directory</em>.
+    <ul>
+      <li>Note that files whose names begin with a dot <code class="highlighter-rouge">.</code> are hidden and ignored by <code class="highlighter-rouge">ls</code>.</li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">pwd</code> - print working directory. Prints out the path of the current working directory.</li>
+  <li><code class="highlighter-rouge">touch [file]</code> - create a file named <em>[file]</em>.</li>
+  <li><code class="highlighter-rouge">mkdir [directory]</code> - make a directory named <em>[directory]</em>.</li>
+  <li><code class="highlighter-rouge">cp [files] [destination]</code> - copies the file to the destination.</li>
+  <li><code class="highlighter-rouge">mv [files] [destination]</code> - moves the file to the destination. Note that if the destination is the same as the source, <em>then it renames the file</em>.
+    <ul>
+      <li>Ex. <code class="highlighter-rouge">mv john.jpg headland.jpg</code> doesn’t move <em>john.jpg</em> anywhere, it renames it to <em>headland.jpg</em></li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">rm [files]</code> - permanently removes the files.</li>
+  <li><code class="highlighter-rouge">rmdir [directory]</code> - removes the directory, as long as it is empty.</li>
+  <li><code class="highlighter-rouge">less [file]</code> - read and display the contents of the file.</li>
+  <li><code class="highlighter-rouge">cat [files]</code> - concatenates and prints the files directly into the terminal. Useful for redirection.
+    <ul>
+      <li>Ex. <code class="highlighter-rouge">cat file1 file2 file3</code> combines the contents of <em>file1</em>, <em>file2</em>, &amp; <em>file3</em> into a single output and prints it into the terminal.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>When a command takes in a file/directory name as an argument, you can write out a path instead of only file names in your current working directory. For example, if you are in <code class="highlighter-rouge">~</code>, you can <code class="highlighter-rouge">cd Desktop/JohnHeadland/Personal_Profile/</code> instead of doing <code class="highlighter-rouge">cd Desktop</code>, <code class="highlighter-rouge">cd JohnHeadland</code>, and then <code class="highlighter-rouge">cd Personal_Profile</code>.</p>
+
+<p><strong>Remember that case sensitivity matters!</strong> <code class="highlighter-rouge">CD</code> is not the same as <code class="highlighter-rouge">cd</code>. The same goes for file/directory names. “<em>documents</em>” is not the same as “<em>Documents</em>”.</p>
+
+<h2 id="bash-syntax">Bash syntax</h2>
+
+<p>Syntax is the structure any language must follow. Even Bash has a general syntax its commands follow (although some commands have their own):</p>
+
+<p><strong><code class="highlighter-rouge">command</code></strong> <em><code class="highlighter-rouge">-option</code></em> <code class="highlighter-rouge">[argument]</code></p>
+
+<p>The <strong><code class="highlighter-rouge">command</code></strong> is the command that Bash executes. For example, <code class="highlighter-rouge">cd</code>, <code class="highlighter-rouge">touch</code>, <code class="highlighter-rouge">mkdir</code></p>
+
+<p>The <em><code class="highlighter-rouge">option</code></em> is written after a dash <code class="highlighter-rouge">-</code>. It allows you to undergo different ways of executing the command. For example, <code class="highlighter-rouge">ls -a</code> (the <em>a</em> option lists all files, including hidden ones whose names begin with a dot, .). You can use multiple options at once by directly appending them, a la: <code class="highlighter-rouge">pacman -Syu</code> (this uses the <em>-S</em>, <em>-y</em>, and <em>-u</em> options all at once).</p>
+
+<p>The <code class="highlighter-rouge">argument</code> is whatever you’re passing into the command. For example, <code class="highlighter-rouge">cd Desktop</code> passes in the <em>Desktop</em> argument to be cd’d into.</p>
+
+<p><strong>Use spaces to separate commands, options, and arguments</strong>. Do <strong>NOT</strong> use spaces otherwise, such as for file or directory names, as they will be read as separate arguments. For example, <code class="highlighter-rouge">touch My file</code> will not create a single file called “My file”, it will touch two separate files named “My” and “file”.</p>
+
+<h2 id="the-manual">The manual</h2>
+
+<p>If you don’t know how to use a command, read the manual for that command by typing in <strong><code class="highlighter-rouge">man command</code></strong>, where <strong>command</strong> is the name of the command you would like to read about. It tells you the syntax for that command with its possible options (and what they do) and what to pass in for arguments. If you try using a command and something doesn’t work, or you have a question, read the manual.</p>
+
+<h2 id="autocompletion">Autocompletion</h2>
+
+<p>When typing in arguments, you can use autocompletion with the Tab key. After typing in a unique amount of characters, if you press Tab, it automatically fills out the rest of the name for you! For example, if you’re in <code class="highlighter-rouge">~</code> and type in <code class="highlighter-rouge">cd Doc</code> and press Tab, the shell will automatically fill out the rest for you as <code class="highlighter-rouge">cd Documents</code>.</p>
+
+<hr />
+
+<h3 id="a-quick-crash-course-on-file-system-navigation"><em>A quick crash course on file system navigation</em></h3>
+
+<ul>
+  <li><code class="highlighter-rouge">cd [directory]</code> will bring you to a certain directory</li>
+  <li><code class="highlighter-rouge">ls</code> will list the contents of your present directory, so you can decide which folder to <code class="highlighter-rouge">cd</code> into next. <strong>If you don’t know where to go, use <code class="highlighter-rouge">ls</code></strong>.</li>
+  <li>If you don’t know where you are, use <code class="highlighter-rouge">pwd</code> (or read the path next to your <em>user@host</em> in your terminal)</li>
+  <li><strong><code class="highlighter-rouge">..</code></strong> is the previous directory, and <strong><code class="highlighter-rouge">.</code></strong> is the current directory
+    <ul>
+      <li><code class="highlighter-rouge">cd ..</code> will take you one directory up on the file system to go backwards.
+        <ul>
+          <li>Ex. You’re in <code class="highlighter-rouge">~/Desktop/JDLAWebDev</code>; <code class="highlighter-rouge">cd ..</code> will change directory to <code class="highlighter-rouge">~/Desktop</code></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>You can <code class="highlighter-rouge">cd</code> past/back multiple folders at once if you know the path. Just use slashes to separate the directories.
+    <ul>
+      <li>For example, if you’re in <code class="highlighter-rouge">~/Desktop/LinuxPython/JohnHeadland</code> and you want to get to <code class="highlighter-rouge">~/Desktop/WebDev/IreneFang</code>. You could type out the entire path, or just <code class="highlighter-rouge">cd ../../WebDev/IreneFang</code>.</li>
+    </ul>
+  </li>
+  <li>Tab completion is your friend. It makes things much faster and easier for you so you don’t have to type out the entire name of files and directories.</li>
+</ul>
+
+<hr />
+
+<p><a href="https://junior-devleague.github.io/JDLA-Web-Development/morea/2_Intro_to_Command_Line/experience-file-creation.html">Click here</a> for the experiential learning exercise that puts what you’ve just learned into practice.</p>
+
+<p><a href="https://junior-devleague.github.io/JDLA-Web-Development/morea/2_Intro_to_Command_Line/experience-treasure-hunt.html">Click here</a> to do the final experiential learning exercise of the module, “Treasure Hunt”, before moving on to <a href="https://junior-devleague.github.io/JDLA-Web-Development/modules/basic-html/">Module 3, “Basic HTML”</a>.</p>
+
+<p><br /></p>
+
+</div>
+
+
+
+
+<script src="/JDLA-GNU-Linux-and-Python/js/scrollIfAnchor.js"></script>
+
+<div class="footer-background hidden-print">
+  <footer>
+    <div class="container page-footer">
+      
+      <p>GNU/Linux &amp; Python | Junior DevLeague Academy |
+junior@devleague.com</p>
+
+      
+      <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: lumen)<br>
+        Last update on: <span>2016-09-18 21:47:21 -1000</span></p>
+
+      <p style="margin: 0">
+        
+        2 modules
+        
+        | 4 outcomes
+        
+        
+        | 5 readings
+        
+        
+        | 4 experiences
+        
+        
+      </p>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

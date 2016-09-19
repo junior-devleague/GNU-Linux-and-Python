@@ -18,3 +18,42 @@
     height: 100%;
 }
 
+p, ul, ol, table, summary {
+	font-size: 18px;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: bold;
+	/*text-decoration: overline;*/
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 34px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+h5 {
+	font-size: 22px;
+}
+
+h6 {
+	font-size: 20px;
+}
+
+#junior-devleague-academy-web-development {
+	text-transform: none;
+}
+
+h1 small {
+	
+	border-bottom: #158cba;
+}

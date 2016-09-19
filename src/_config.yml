@@ -1,20 +1,20 @@
-name: Morea CORE (Change me)
+name: JDLA GNU/Linux & Python
 markdown: kramdown
 kramdown:
   hard_wrap: false
   input: GFM
   syntax_highlighter: rouge
 mathjax: true
-baseurl: /core
+baseurl: /JDLA-GNU-Linux-and-Python
 exclude: [morea]
-morea_theme: spacelab
+morea_theme: lumen
 morea_navbar_items:
   #- Prerequisites
   - Modules
   - Outcomes
   - Readings
   - Experiences
-  - Assessments
+  #- Assessments
   #- Schedule
 
 # The following properties are optional.

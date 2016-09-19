@@ -18,10 +18,10 @@ This course focuses on the instruction and usage of the GNU/Linux operating syst
 
 ### Who should take this course? 
 
-This course is for students with an interest in computers. Self-directed learning must be possible due to the nature of this course, although you will have personalized assistance from your instructors.
+This course is for students with an interest in computers. Self-directed learning must be possible due to the nature of this course, although you still will have personalized assistance from your instructors.
 
 ### Let's begin!
 
-Let's start off by reading through [Module 1's](https://junior-devleague.github.io/JDLA-Web-Development/modules/course-introduction/) first reading, ["How to use this site"](https://junior-devleague.github.io/JDLA-Web-Development/morea/1_Course_Introduction/reading-guided-tour.html)
+Let's start off by reading through [Module 1's](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/modules/course-introduction/) first reading, ["How to use this site"](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/1_Course_Introduction/reading-guided-tour.html)
 
 <br>

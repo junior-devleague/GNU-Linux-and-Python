@@ -30,5 +30,5 @@ Basically, each directory will have a riddle or question you must solve. The sub
 
 ---
 
-When you are done with this exercise, show one of your instructors Linus the pirate’s hidden treasure and then move on to the next module, [“Basic HTML”](https://junior-devleague.github.io/JDLA-Web-Development/modules/basic-html/).
+When you are done with this exercise, show one of your instructors Linus the pirate’s hidden treasure and then move on to the next module, [“Basic HTML”](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/modules/basic-html/).
 

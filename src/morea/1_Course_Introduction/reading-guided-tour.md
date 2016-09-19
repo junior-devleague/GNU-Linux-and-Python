@@ -15,7 +15,7 @@ Welcome to **GNU/Linux & Python**, taught by Jr DevLeague Academy. This class wi
 
 ## Modules
 
-The modules are the individual topics that we will cover in this course. Each topic you’ll need to learn will be in its own module. Imagine building furniture -- each part comes separately, and then you put it all together to have a functioning desk or chair or something. Each leg of the chair is like each individual module, and when you’ve gone through all the modules, you’ll be able to build a basic, functioning, website. 
+The modules are the individual topics that we will cover in this course. Each topic you’ll need to learn will be in its own module. Imagine building furniture -- each part comes separately, and then you put it all together to have a functioning desk or chair or something. Each leg of the chair is like each individual module, and when you’ve gone through all the modules, you’ll be able to easily use Linux through the CLI and write programs in Python. 
 
 In turn, each module contains its own learning outcomes, readings, and experiential learning. 
 

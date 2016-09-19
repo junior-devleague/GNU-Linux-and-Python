@@ -19,6 +19,6 @@ In this exercise, you will play a Role-Playing Game developed by MIT, *Terminus*
 
 ---
 
-When finished, you’ll be ready for this module’s final reading, [“Basic Bash”](https://junior-devleague.github.io/JDLA-Web-Development/morea/2_Intro_to_Command_Line/reading-basic-bash.html).
+When finished, you’ll be ready for this module’s final reading, [“Basic Bash”](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/2_Intro_to_Command_Line/reading-basic-bash.html).
 
 <br>

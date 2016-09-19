@@ -11,7 +11,7 @@ morea_labels:
 
 # Basic Bash
 
-Before this reading, [follow this link](https://junior-devleague.github.io/JDLA-Web-Development/morea/2_Intro_to_Command_Line/experience-terminus.html) and complete the experiential learning exercise “Terminus”.
+Before this reading, [follow this link](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/2_Intro_to_Command_Line/experience-terminus.html) and complete the experiential learning exercise “Terminus”.
 
 In Terminus, you performed spells, interacted with items, and traveled to different locations. These are all translatable to Bash, with the spells as commands, items as files, and locations as directories.
 
@@ -48,7 +48,7 @@ The *`option`* is written after a dash `-`. It allows you to undergo different w
 
 The `argument` is whatever you’re passing into the command. For example, `cd Desktop` passes in the *Desktop* argument to be cd’d into.
 
-**Use spaces to separate commands, options, and arguments**. Do **NOT** use spaces otherwise, such as for file or directory names, as they will be read as separate arguments. For example, `touch My file` will not create a single file called “My file”, it will touch two separate files named “My” and “file”.
+**Use spaces to separate commands, options, and arguments**. Do **NOT** use spaces otherwise, such as for file or directory names, as they will be read as separate arguments. For example, `touch My file` will not create a single file called “My file”, it will touch two separate files named “My” and “file”. Also, note that in Linux, file extensions don't matter, because the file type is determined within the file's data.
 
 ## The manual
 
@@ -74,8 +74,8 @@ When typing in arguments, you can use autocompletion with the Tab key. After typ
 
 ---
 
-[Click here](https://junior-devleague.github.io/JDLA-Web-Development/morea/2_Intro_to_Command_Line/experience-file-creation.html) for the experiential learning exercise that puts what you’ve just learned into practice.
+[Click here](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/2_Intro_to_Command_Line/experience-file-creation.html) for the experiential learning exercise that puts what you’ve just learned into practice.
 
-[Click here](https://junior-devleague.github.io/JDLA-Web-Development/morea/2_Intro_to_Command_Line/experience-treasure-hunt.html) to do the final experiential learning exercise of the module, “Treasure Hunt”, before moving on to [Module 3, “Basic HTML”](https://junior-devleague.github.io/JDLA-Web-Development/modules/basic-html/).
+[Click here](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/2_Intro_to_Command_Line/experience-treasure-hunt.html) to do the final experiential learning exercise of the module, “Treasure Hunt”, before moving on to [Module 3, “”](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/modules//).
 
 <br>

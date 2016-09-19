@@ -30,6 +30,6 @@ When finished, show the instructor your answers and move on to the â€œTerminusâ€
 
 ---
 
-After you're done, move on to the next experiential learning exercise, ["Terminus"](https://junior-devleague.github.io/JDLA-Web-Development/morea/2_Intro_to_Command_Line/experience-terminus.html).
+After you're done, move on to the next experiential learning exercise, ["Terminus"](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/2_Intro_to_Command_Line/experience-terminus.html).
 
 <br>

@@ -11,11 +11,11 @@ morea_labels:
 
 # Terminus
 
-In this exercise, you will play a Role-Playing Game developed by MIT, *Terminus*, to have a fun introduction to using Bash for file navigation and manipulation.
+In this exercise, you will play a Role-Playing Game developed by MIT, _Terminus_, to have a fun introduction to using Bash for file navigation and manipulation.
 
 [Click here to play Terminus.](http://mprat.org/Terminus) **Read the rules and instructions at the top (the white text)!**
 
-*Note that everything you learn in Terminus is directly linked to Bash. The spells are commands, locations are directories, and items are files.*
+_Note that everything you learn in Terminus is directly linked to Bash. The spells are commands, locations are directories, and items are files._
 
 ---
 

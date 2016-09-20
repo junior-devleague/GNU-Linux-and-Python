@@ -25,15 +25,15 @@ In turn, each module contains its own learning outcomes, readings, and experient
 
 - ### Readings
 
-- Readings are the meat of the content. As the name implies, each module has several readings on the topic of the module. There are also screencasts (basically, instructional videos) to help with your comprehension, as it may be easier for you to understand things after watching us, the instructors, do the things the readings cover. At the end of some of the readings,  you will complete the corresponding experiential learning activities.
+- Readings are the meat of the content. As the name implies, each module has several readings on the topic of the module. There are also screencasts (basically, instructional videos) to help with your comprehension, as it may be easier for you to understand things after watching us, the instructors, do the things the readings cover. At the end of some of the readings, you will complete the corresponding experiential learning activities.
 
 - ### Experiential Learning
 
 - The experiential learnings are the exercises you must complete after certain readings in order to get a hands-on learning experience and fully understand the concepts. Coding is difficult to learn just by reading and watching videos. Actually doing the exercises and coding challenges is crucial to your education here at Jr DevLeague Academy.
 
-## Navigating JDLA Web Development
+## Navigating JDLA GNU/Linux & Python
 
-**Modules need to be completed in order.** This means you must do them one after the other, in numerical order. Don’t skip around or you will get lost and die. Your peers will surpass you because they will have the fundamental knowledge that you don’t. So no matter what you think you know, **do the modules in numbered order**. Even if you join in with knowledge and experience with Bash and Python, we guarantee there will be new things you will learn that you haven’t heard of before.
+**Modules need to be completed in order.** This means you must do them one after the other, in numerical order. Don’t skip around or you will get lost and die. Your peers will surpass you because they will have the fundamental knowledge that you don’t. So no matter what you think you know, **do the modules in numbered order**. Even if you join in with knowledge of and experience with Bash and Python, we guarantee there will be new things you will learn that you haven’t heard of before.
 
 ### What to do when you’re done with a reading
 

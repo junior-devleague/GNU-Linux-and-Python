@@ -7,9 +7,11 @@ morea_outcomes:
 morea_readings:
  - reading-guided-tour
  - reading-what-is-linux
+ - reading-ubuntu
+ - reading-what-is-python
 morea_experiences:
 morea_type: module
-#morea_icon_url: /morea/foo/logo.png
+#morea_icon_url: /morea/foo/logo.png 150x150
 morea_summary: "The introduction to our wonderful GNU/Linux & Python course"
 morea_labels:
  - intro

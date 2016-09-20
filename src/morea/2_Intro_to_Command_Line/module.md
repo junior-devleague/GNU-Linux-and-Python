@@ -24,4 +24,4 @@ morea_type: module
 morea_sort_order: 2
 ---
 
-This is an introduction to the command line interface, and how to use it with Bash to traverse the UNIX file system.
+This is an introduction to the command-line interface, and how to use it with Bash to traverse the UNIX file system.

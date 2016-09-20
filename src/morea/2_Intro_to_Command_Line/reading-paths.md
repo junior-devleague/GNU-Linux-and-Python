@@ -12,7 +12,7 @@ morea_labels:
 
 # Paths
 
-UNIX operating systems follow a hierarchical directory structure. Before I launch into an explanation of how the UNIX file system works, remember that in UNIX, **everything is a file**. Everything. Even outputs, commands, and devices are files. 
+UNIX operating systems are a classification of multitasking, multiuser OSes _that follow a hierarchical directory structure_. Before I launch into an explanation of how the UNIX file system works, remember that in UNIX, **everything is a file**. Everything. Even outputs, commands, and devices are files. 
 
 ## File Systems
 
@@ -24,17 +24,17 @@ The UNIX file system looks like a tree, where everything starts in the root dire
 
 ## Paths
 
-A *path* in the file system traces out the location of a file/directory from a given directory.
+A _path_ in the file system traces out the location of a file/directory from a given directory.
 
 You separate directories with slashes which signifies if something is inside of something else. Remember, the very first slash is also a directory: the root directory. For example, `/home/john/Documents/DevLeague/helloworld.py` is the path detailing the location of the file “helloworld.py”. It is in the `DevLeague` directory, which is in `Documents`, which is in `john`, which is in `home`, which is in `/` (the root directory).
 
 A special pathname is `~` (tilde). `~` stands for `/home/user/`. Note that `user` is not literally “user”, but the name of the user profile (which is `junior` in our computers at Academy). When you first open your terminal, you are placed in your user’s home directory `~` by default. It holds everything a normal user would use, the Desktop, Documents, Downloads, Pictures, etc. directories. In the above path example, we didn’t have to write out that entire path. Instead of having the `/home/user`, we could’ve just written `~/Documents/DevLeague/helloworld.py`. 
 
-When writing out paths for anything (such as arguments), you can write them out as *absolute* or *relative* paths.
+When writing out paths for anything (such as arguments), you can write them out as _absolute_ or _relative_ paths.
 
 #### Absolute Paths
 
-Absolute paths point to the file/directory regardless of the current working directory (the directory you are in). It always includes the root (or `~`). The paths in the examples above are written as absolute paths.
+Absolute paths point to the file/directory regardless of the current working directory (the directory you are currently in). It always includes the root (or `~`). The paths in the examples above are written as absolute paths.
 
 #### Relative Paths
 

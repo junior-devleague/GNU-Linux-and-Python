@@ -1,5 +1,5 @@
 ---
-title: "Understand GNU/Linux"
+title: "Understand what GNU/Linux is"
 published: true
 morea_id: outcome-gnu-linux
 morea_type: outcome

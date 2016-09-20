@@ -22,7 +22,7 @@ Download the necessary files by typing the following into your terminal:
 
 ### How to play
 
-Begin by `cd`’ing into the “*TreasureHunt*” directory and reading “*rules.txt*”.
+Begin by `cd`’ing into the “_TreasureHunt_” directory and reading “_rules.txt_”.
 
 Basically, each directory will have a riddle or question you must solve. The sub-directories are your possible answers, so when you solve a problem, `cd` into the answer (which is the name of the directory). Immediately `ls` and read the riddle/question every time you enter a new directory.
 
@@ -30,5 +30,5 @@ Basically, each directory will have a riddle or question you must solve. The sub
 
 ---
 
-When you are done with this exercise, show one of your instructors Linus the pirate’s hidden treasure and then move on to the next module, [“Basic HTML”](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/modules/basic-html/).
+When you are done with this exercise, show one of your instructors Linus the pirate’s hidden treasure and then move on to the next module, [“”](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/modules//).
 

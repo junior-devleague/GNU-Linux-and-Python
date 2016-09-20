@@ -22,7 +22,7 @@ _Distributions_ (or just _distros_) are community/company-created OSes, using th
 - Default configurations (things like the settings and behaviors of the distro)
 - Default packages (the software and programs it comes with)
 - Release schedule (how often the packages are updated and released; either stable or rolling release)
-- Package management system (explained in the next reading)
+- Package management system (explanation is literally two sentences later)
 - The logo
 
 ### Package Managers
@@ -62,11 +62,13 @@ Command | What it does
 `apt autoremove` | removes dependency packages that are no longer needed
 `apt update` | makes your source list up-to-date
 `apt upgrade` | upgrades all installed packages to the latest version
-`apt dist-upgrade` | the same as above, except using "smart conflict resolution" to prioritize mroe important packages in the case of a dependency conflict
+`apt dist-upgrade` | the same as above, but it prioritizes more important packages in the case of a dependency conflict
 
 <br>
 
 When installing a package, `apt search` it first to read the description and make sure it's the correct package name.
+
+When uninstalling a package, skim the list of dependency packages to make sure nothing vital will be removed as well.
 
 When you want to update your system and packages, it's recommended to execute the command `sudo apt update && sudo apt dist-upgrade`
 

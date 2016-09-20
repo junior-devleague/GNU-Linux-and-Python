@@ -12,9 +12,9 @@ morea_labels:
 
 # File Creation
 
-## CLI Text Editor
+## Nano
 
-In this class, we want to minimize the usage of graphical user interfaces (GUIs), so we'll be using CLI text editors. The main text editor we'll be using in this class is Vim, but until we reach the Vim module, we'll be using Nano, a really simple and easy-to-use CLI editor. To use Nano, type in the `nano` command, or `nano [file]` to edit a file. The commands for Nano are located at the bottom of the terminal emulator, but the main ones you need to know are `Ctrl + O` to save, and `Ctrl + X` to save and exit. When doing so, make sure to pay attention to the bottom for the filename and other prompts.
+In this class, we want to minimize the usage of graphical user interfaces (GUIs), so we'll be using CLI text editors. The main text editor we'll be using in this class is Vim, but until we reach the Vim module, we'll be using Nano, a really simple and easy-to-use CLI editor. To use Nano, type in the `nano` command, or `nano [file]` to edit a file. The commands for Nano are located at the bottom of the terminal emulator, but the main ones you need to know are `Ctrl + O` to save, and `Ctrl + X` to exit (with the option to save). When using these commands, make sure to pay attention to the bottom for the filename and other prompts.
 
 ## Instructions
 

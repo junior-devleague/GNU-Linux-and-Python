@@ -31,8 +31,8 @@ In Terminus, you performed spells, interacted with items, and traveled to differ
 - `less [file]` - read and display the contents of the file.
 - `cat [files]` - concatenates (combines) and prints the files directly into the terminal. Useful for redirection.
   - Ex. `cat file1 file2 file3` combines the contents of _file1_, _file2_, & _file3_ into a single output and prints it into the terminal.
-- `file [file]` - displays information about the _[file]_, including its file format
-  - In Linux, filenames don't require a file extension to define its file format (file type). That is determined in the bits & data within the file
+- `file [file]` - displays information about the _[file]_, including its file format.
+  - In Linux, filenames don't require a file extension (i.e. _.txt_, _.png_, etc.) to define its file format (file type). That is determined in the bits & data within the file.
 
 When a command takes in a file/directory name as an argument, you can write out a path instead of only file names in your current working directory. For example, if you are in `~`, you can `cd Desktop/JohnHeadland/BashExercises/` instead of doing `cd Desktop`, `cd JohnHeadland`, and then `cd BashExercises`.
 
@@ -58,7 +58,7 @@ If you don’t know how to use a command, read the manual for that command by ty
 
 ## Autocompletion
 
-When typing in arguments, you can use autocompletion with the Tab key. After typing in a unique amount of characters, if you press Tab, it automatically fills out the rest of the name for you! For example, if you’re in `~` and type in `cd Doc` and then press Tab, the shell will automatically fill out the rest for you as `cd Documents`.
+When typing in arguments, you can use autocompletion with the **Tab** key. After typing in a unique amount of characters, if you press Tab, it automatically fills out the rest of the name for you! For example, if you’re in `~` and type in `cd Doc` and then press Tab, the shell will automatically fill out the rest for you as `cd Documents`.
 
 ---
 

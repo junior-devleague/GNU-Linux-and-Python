@@ -17,7 +17,7 @@ GNU/Linux is a UNIX-like operating system (OS) composed of GNU packages and core
 
 ## GNU
 
-GNU is a large, collaborative project containing a collection of free and open source software (FOSS). GNU is a recursive acronym standing for _"GNU's Not Unix!"_, so while it follows the same rules of a Unix OS, it is different because it's FOSS and written without Unix code. The GNU Project is led by Richard Stallman of the Free Software Foundation, and it contains the core utilities and basic tools that make up the GNU/Linux OS. GNU is made up entirely of free software, and by free, we don't just mean free as in free soda, but free as in freedom. FOSS gives you the freedom to actually own your software, and use it for any purpose, as well as change it to your liking. It would techincally be more accurate to call the OS GNU, as opposed to Linux, because it has all of the software in the OS, excluding the kernel.
+GNU is a large, collaborative project containing a collection of free and open source software (FOSS). GNU is an acronym standing for _"GNU's Not Unix!"_, so while it follows the same rules of a Unix OS, it is different because it's FOSS and written without Unix code. The GNU Project is led by Richard Stallman of the Free Software Foundation, and it contains the core utilities and basic tools that make up the GNU/Linux OS. GNU is made up entirely of free software, and by free, we don't just mean free as in free soda, but free as in freedom. FOSS gives you the freedom to actually own your software, and use it for any purpose, as well as change it to your liking. It would techincally be more accurate to call the OS GNU, as opposed to Linux, because it has all of the software in the OS, excluding the kernel.
 
 ## Linux
 

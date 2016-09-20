@@ -95,7 +95,7 @@
   <li>Default configurations (things like the settings and behaviors of the distro)</li>
   <li>Default packages (the software and programs it comes with)</li>
   <li>Release schedule (how often the packages are updated and released; either stable or rolling release)</li>
-  <li>Package management system (explained in the next reading)</li>
+  <li>Package management system (explanation is literally two sentences later)</li>
   <li>The logo</li>
 </ul>
 
@@ -173,7 +173,7 @@
     </tr>
     <tr>
       <td><code class="highlighter-rouge">apt dist-upgrade</code></td>
-      <td>the same as above, except using “smart conflict resolution” to prioritize mroe important packages in the case of a dependency conflict</td>
+      <td>the same as above, but it prioritizes more important packages in the case of a dependency conflict</td>
     </tr>
   </tbody>
 </table>
@@ -181,6 +181,8 @@
 <p><br /></p>
 
 <p>When installing a package, <code class="highlighter-rouge">apt search</code> it first to read the description and make sure it’s the correct package name.</p>
+
+<p>When uninstalling a package, skim the list of dependency packages to make sure nothing vital will be removed as well.</p>
 
 <p>When you want to update your system and packages, it’s recommended to execute the command <code class="highlighter-rouge">sudo apt update &amp;&amp; sudo apt dist-upgrade</code></p>
 
@@ -206,7 +208,7 @@ junior@devleague.com</p>
 
       
       <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: lumen)<br>
-        Last update on: <span>2016-09-19 20:02:18 -1000</span></p>
+        Last update on: <span>2016-09-20 12:38:22 -1000</span></p>
 
       <p style="margin: 0">
         

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Ubuntu | JDLA GNU/Linux & Python </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <!--  Load bootswatch-based Morea theme file. -->
+  <link rel="stylesheet" href="/JDLA-GNU-Linux-and-Python/css/themes/lumen/bootstrap.min.css">
+  <link rel="stylesheet" href="/JDLA-GNU-Linux-and-Python/css/style.css">
+  <link rel="stylesheet" href="/JDLA-GNU-Linux-and-Python/css/syntax.css">
+  <link rel="shortcut icon" href="/JDLA-GNU-Linux-and-Python/favicon.ico" type="image/x-icon"/>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.2.0/respond.js"></script>
+  <![endif]-->
+
+  <!-- Load Bootstrap JavaScript components -->
+  <script src="//code.jquery.com/jquery.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+  
+  <script type="text/javascript"
+          src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+  
+
+  <script>
+    $(window).load(function () {
+      // If on a page associated with a navbar item, make its navbar item 'active'.
+      $('.navbar-nav').find('a[href="' + location.pathname + '"]').parents('li').addClass('active');
+    });
+  </script>
+
+</head>
+<body>
+<!-- Responsive navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <!--  Display three horizontal lines when navbar collapsed. -->
+        <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/JDLA-GNU-Linux-and-Python/index.html"> JDLA GNU/Linux & Python </a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        
+        <li><a href="/JDLA-GNU-Linux-and-Python/modules/">Modules</a></li>
+        
+        <li><a href="/JDLA-GNU-Linux-and-Python/outcomes/">Outcomes</a></li>
+        
+        
+        <li><a href="/JDLA-GNU-Linux-and-Python/readings/">Readings</a></li>
+        
+        
+        <li><a href="/JDLA-GNU-Linux-and-Python/experiences/">Experiences</a></li>
+        
+        
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="breadcrumb-bar">
+  <div class="container">
+    <ol class="breadcrumb">
+      
+      <li><a href="/JDLA-GNU-Linux-and-Python/">Home</a></li>
+      <li><a href="/JDLA-GNU-Linux-and-Python/modules">Modules</a></li>
+      <li><a href="/JDLA-GNU-Linux-and-Python/modules/course-introduction">Course Introduction</a></li>
+      <li class="active">Ubuntu</li>
+    </ol>
+  </div>
+</div>
+
+
+<div class="container">
+  <h1 id="ubuntu">Ubuntu</h1>
+
+<p>The computers here at Academy are loaded with the Ubuntu, the most popular distribution of Linux.</p>
+
+<h2 id="distributions">Distributions</h2>
+
+<p><em>Distributions</em> (or just <em>distros</em>) are community/company-created OSes, using the Linux kernel and a package management system, that are freely distributed. So when people say they use Linux, they’re actually using a distribution of it. All distributions of linux are essentially the same things, except with a few key differences:</p>
+
+<ul>
+  <li>Default desktop environment (or DE, the desktop GUI you click around in, usually has a toolbar, icons, windows, folders, and taskbar)</li>
+  <li>Default configurations (things like the settings and behaviors of the distro)</li>
+  <li>Default packages (the software and programs it comes with)</li>
+  <li>Release schedule (how often the packages are updated and released; either stable or rolling release)</li>
+  <li>Package management system (explained in the next reading)</li>
+  <li>The logo</li>
+</ul>
+
+<h3 id="package-managers">Package Managers</h3>
+
+<p>A package manager is a collection of software tools that automates installing, configuring, upgrading, and removing packages. They make it so you don’t have to manually install everything yourself. They usually search a repository (repo) for the given package, and then execute a set of steps to install it.</p>
+
+<p>Repos are servers located around the world that contain sets of packages. Generally, the package manager gets its packages from the repo whose name it shares.</p>
+
+<p>Each distro has its own package manager, and the distros that are forks of them (built on top of it and expanded from its source code to become its own distro). Some examples are:</p>
+<ul>
+  <li>Debian-based: apt</li>
+  <li>Arch-based: pacman</li>
+  <li>Red Hat-based: dnf</li>
+  <li>Gentoo-based: portage</li>
+</ul>
+
+<h2 id="about-ubuntu">About Ubuntu</h2>
+
+<p>Ubuntu is a Debian-based distro that is known for being beginner-friendly and easy to use.  It uses <em>Unity</em> as the default DE and <code class="highlighter-rouge">.deb</code> files as its packages. If you ever download a package from the internet that is <code class="highlighter-rouge">.deb</code>, you’d use the <code class="highlighter-rouge">dpkg</code> command to install it. For example, <code class="highlighter-rouge">dpkg -i chromium-widevine.deb</code>.</p>
+
+<p>Ubuntu has a GUI for just about everything, and its creators boast that you never need to touch the comand line to use it. Despite this, we want you to <strong>use the terminal as much as possible</strong> to actually learn. If you stick with only using the GUI for everything, such as the Ubuntu Software application to install software, then you will become reliant on it and you won’t be able to move on to other, more advanced distros like Arch Linux.</p>
+
+<h2 id="apt">APT</h2>
+
+<p>Apt (the Advanced Package Tool) is the package manager that comes with Debian-based distros, including Ubuntu. It accesses the apt repositories for its packages. <code class="highlighter-rouge">/etc/apt/sources.list</code> is the file that determines apt’s sources (repos). When installing a package that requires other packages (which are known as <em>dependency packages</em>, because the installed package is dependent on them), it automatically resolves those dependencies and installs them with the package.</p>
+
+<p><strong>When using apt, make sure you only install approved software. If there is something you’d like to install, ask an instructor first!</strong></p>
+
+<p>Some essential apt commands to manage your packages are:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>What it does</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">apt search [argument]</code></td>
+      <td>searches the apt repo</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">apt install [argument]</code></td>
+      <td>installs the given package name</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">apt remove [argument]</code></td>
+      <td>removes the installed package</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">apt purge [argument]</code></td>
+      <td>completely removes an installed package and its configuration files</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">apt autoclean</code></td>
+      <td>removes <code class="highlighter-rouge">.deb</code> files for uninstalled packages</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">apt clean</code></td>
+      <td>removes all packages from the cache and reinstalls them</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">apt autoremove</code></td>
+      <td>removes dependency packages that are no longer needed</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">apt update</code></td>
+      <td>makes your source list up-to-date</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">apt upgrade</code></td>
+      <td>upgrades all installed packages to the latest version</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">apt dist-upgrade</code></td>
+      <td>the same as above, except using “smart conflict resolution” to prioritize mroe important packages in the case of a dependency conflict</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<p>When installing a package, <code class="highlighter-rouge">apt search</code> it first to read the description and make sure it’s the correct package name.</p>
+
+<p>When you want to update your system and packages, it’s recommended to execute the command <code class="highlighter-rouge">sudo apt update &amp;&amp; sudo apt dist-upgrade</code></p>
+
+<hr />
+
+<p><a href="https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/1_Course_Introduction/reading-what-is-python.html">Click here</a> to move on to the next reading, “What is Python?”.</p>
+
+<p><br /></p>
+
+</div>
+
+
+
+
+<script src="/JDLA-GNU-Linux-and-Python/js/scrollIfAnchor.js"></script>
+
+<div class="footer-background hidden-print">
+  <footer>
+    <div class="container page-footer">
+      
+      <p>GNU/Linux &amp; Python | Junior DevLeague Academy |
+junior@devleague.com</p>
+
+      
+      <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: lumen)<br>
+        Last update on: <span>2016-09-19 20:02:18 -1000</span></p>
+
+      <p style="margin: 0">
+        
+        2 modules
+        
+        | 3 outcomes
+        
+        
+        | 7 readings
+        
+        
+        | 4 experiences
+        
+        
+      </p>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

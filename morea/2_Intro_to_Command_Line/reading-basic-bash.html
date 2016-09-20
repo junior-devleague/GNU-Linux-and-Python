@@ -109,14 +109,19 @@
   <li><code class="highlighter-rouge">rm [files]</code> - permanently removes the files.</li>
   <li><code class="highlighter-rouge">rmdir [directory]</code> - removes the directory, as long as it is empty.</li>
   <li><code class="highlighter-rouge">less [file]</code> - read and display the contents of the file.</li>
-  <li><code class="highlighter-rouge">cat [files]</code> - concatenates and prints the files directly into the terminal. Useful for redirection.
+  <li><code class="highlighter-rouge">cat [files]</code> - concatenates (combines) and prints the files directly into the terminal. Useful for redirection.
     <ul>
       <li>Ex. <code class="highlighter-rouge">cat file1 file2 file3</code> combines the contents of <em>file1</em>, <em>file2</em>, &amp; <em>file3</em> into a single output and prints it into the terminal.</li>
     </ul>
   </li>
+  <li><code class="highlighter-rouge">file [file]</code> - displays information about the <em>[file]</em>, including its file format
+    <ul>
+      <li>In Linux, filenames don’t require a file extension to define its file format (file type). That is determined in the bits &amp; data within the file</li>
+    </ul>
+  </li>
 </ul>
 
-<p>When a command takes in a file/directory name as an argument, you can write out a path instead of only file names in your current working directory. For example, if you are in <code class="highlighter-rouge">~</code>, you can <code class="highlighter-rouge">cd Desktop/JohnHeadland/Personal_Profile/</code> instead of doing <code class="highlighter-rouge">cd Desktop</code>, <code class="highlighter-rouge">cd JohnHeadland</code>, and then <code class="highlighter-rouge">cd Personal_Profile</code>.</p>
+<p>When a command takes in a file/directory name as an argument, you can write out a path instead of only file names in your current working directory. For example, if you are in <code class="highlighter-rouge">~</code>, you can <code class="highlighter-rouge">cd Desktop/JohnHeadland/BashExercises/</code> instead of doing <code class="highlighter-rouge">cd Desktop</code>, <code class="highlighter-rouge">cd JohnHeadland</code>, and then <code class="highlighter-rouge">cd BashExercises</code>.</p>
 
 <p><strong>Remember that case sensitivity matters!</strong> <code class="highlighter-rouge">CD</code> is not the same as <code class="highlighter-rouge">cd</code>. The same goes for file/directory names. “<em>documents</em>” is not the same as “<em>Documents</em>”.</p>
 
@@ -132,7 +137,7 @@
 
 <p>The <code class="highlighter-rouge">argument</code> is whatever you’re passing into the command. For example, <code class="highlighter-rouge">cd Desktop</code> passes in the <em>Desktop</em> argument to be cd’d into.</p>
 
-<p><strong>Use spaces to separate commands, options, and arguments</strong>. Do <strong>NOT</strong> use spaces otherwise, such as for file or directory names, as they will be read as separate arguments. For example, <code class="highlighter-rouge">touch My file</code> will not create a single file called “My file”, it will touch two separate files named “My” and “file”. Also, note that in Linux, file extensions don’t matter, because the file type is determined within the file’s data.</p>
+<p><strong>Use spaces to separate commands, options, and arguments</strong>. Do <strong>NOT</strong> use spaces otherwise, such as for file or directory names, as they will be read as separate arguments. For example, <code class="highlighter-rouge">touch My file</code> will not create a single file called “My file”, it will touch two separate files named “My” and “file”.</p>
 
 <h2 id="the-manual">The manual</h2>
 
@@ -140,7 +145,7 @@
 
 <h2 id="autocompletion">Autocompletion</h2>
 
-<p>When typing in arguments, you can use autocompletion with the Tab key. After typing in a unique amount of characters, if you press Tab, it automatically fills out the rest of the name for you! For example, if you’re in <code class="highlighter-rouge">~</code> and type in <code class="highlighter-rouge">cd Doc</code> and press Tab, the shell will automatically fill out the rest for you as <code class="highlighter-rouge">cd Documents</code>.</p>
+<p>When typing in arguments, you can use autocompletion with the Tab key. After typing in a unique amount of characters, if you press Tab, it automatically fills out the rest of the name for you! For example, if you’re in <code class="highlighter-rouge">~</code> and type in <code class="highlighter-rouge">cd Doc</code> and then press Tab, the shell will automatically fill out the rest for you as <code class="highlighter-rouge">cd Documents</code>.</p>
 
 <hr />
 
@@ -191,16 +196,16 @@ junior@devleague.com</p>
 
       
       <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: lumen)<br>
-        Last update on: <span>2016-09-19 11:05:29 -1000</span></p>
+        Last update on: <span>2016-09-19 20:02:18 -1000</span></p>
 
       <p style="margin: 0">
         
         2 modules
         
-        | 4 outcomes
+        | 3 outcomes
         
         
-        | 5 readings
+        | 7 readings
         
         
         | 4 experiences

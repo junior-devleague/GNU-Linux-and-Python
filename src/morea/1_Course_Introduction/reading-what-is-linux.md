@@ -39,6 +39,6 @@ You should use Linux because it's the greatest OS of all time. Seriously. Go hom
 
 ---
 
-[Click here](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/1_Course_Introduction/reading-ubuntu.html) to move on to the next reading, "Ubuntu".
+[Click here](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/1_Course_Introduction/reading-ubuntu-apt.html) to move on to the next reading, "Ubuntu & APT".
 
 <br>

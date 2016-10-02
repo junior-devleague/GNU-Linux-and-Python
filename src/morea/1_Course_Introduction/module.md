@@ -8,7 +8,7 @@ morea_outcomes:
 morea_readings:
  - reading-guided-tour
  - reading-what-is-linux
- - reading-ubuntu
+ - reading-ubuntu-apt
  - reading-what-is-python
 morea_experiences:
 morea_type: module

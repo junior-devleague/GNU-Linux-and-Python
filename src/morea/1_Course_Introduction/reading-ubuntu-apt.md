@@ -1,7 +1,7 @@
 ---
-title: "Ubuntu"
+title: "Ubuntu & APT"
 published: true
-morea_id: reading-ubuntu
+morea_id: reading-ubuntu-apt
 morea_summary: "An introduction to the Linux distribution Ubuntu and how to install packages"
 morea_type: reading
 morea_sort_order: 3
@@ -10,7 +10,7 @@ morea_labels:
  - Ubuntu
 ---
 
-# Ubuntu
+# Ubuntu & APT
 
 The computers here at Academy are loaded with the Ubuntu, the most popular distribution of Linux.
 
@@ -47,7 +47,7 @@ Ubuntu has a GUI for just about everything, and its creators boast that you neve
 
 Apt (the Advanced Package Tool) is the package manager that comes with Debian-based distros, including Ubuntu. It accesses the apt repositories for its packages. `/etc/apt/sources.list` is the file that determines apt's sources (repos). When installing a package that requires other packages (which are known as _dependency packages_, because the installed package is dependent on them), it automatically resolves those dependencies and installs them with the package.
 
-**When using apt, make sure you only install approved software. If there is something you'd like to install, ask an instructor first!**
+**When using apt on the computers here at Academy, make sure you only install approved software. If there is something you'd like to install, ask an instructor first!**
 
 Some essential apt commands to manage your packages are:
 
@@ -65,6 +65,8 @@ Command | What it does
 `apt dist-upgrade` | the same as above, but it prioritizes more important packages in the case of a dependency conflict
 
 <br>
+
+**Whenever you would like to install software on any machine running Linux, do it from the package manager unless there is explicit instruction to do otherwise. This is the safest and best way to resolve dependencies and keep a clean computer.**
 
 When installing a package, `apt search` it first to read the description and make sure it's the correct package name.
 

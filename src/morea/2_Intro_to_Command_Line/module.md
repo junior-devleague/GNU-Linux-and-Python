@@ -2,10 +2,10 @@
 title: "Intro to Command Line"
 published: true
 morea_id: intro-to-command-line
-morea_summary: "Learn the basics of Bash in the terminal and the UNIX file system"
+morea_summary: "A beginner's introduction to Bash in the terminal and the UNIX file system"
 morea_outcomes:
   - outcome-file-system
-  - outcome-basic-commands
+  - outcome-files-bash
 morea_readings:
   - reading-shell
   - reading-paths

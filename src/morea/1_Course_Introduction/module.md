@@ -4,6 +4,7 @@ published: true
 morea_id: course-introduction
 morea_outcomes:
  - outcome-gnu-linux
+ - outcome-apt
 morea_readings:
  - reading-guided-tour
  - reading-what-is-linux

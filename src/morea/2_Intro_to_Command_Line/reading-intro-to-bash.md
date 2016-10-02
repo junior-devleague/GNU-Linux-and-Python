@@ -1,7 +1,7 @@
 ---
-title: "Basic Bash"
+title: "Intro to Bash"
 published: true
-morea_id: reading-basic-bash
+morea_id: reading-intro-to-bash
 morea_summary: "An overview of basic Bash commands & syntax for file navigation & manipulation"
 morea_type: reading
 morea_sort_order: 7
@@ -9,17 +9,17 @@ morea_labels:
  - Bash
 ---
 
-# Basic Bash
+# Intro to Bash
 
 Before this reading, [follow this link](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/2_Intro_to_Command_Line/experience-terminus.html) and complete the experiential learning exercise “Terminus”.
 
-In Terminus, you performed spells, interacted with items, and traveled to different locations. These are all translatable to Bash, with the spells as commands, items as files, and locations as directories.
+In Terminus, you performed spells, interacted with items, and traveled to different locations. These are all translatable to Bash, with the spells as commands, locations as directories, and items as files.
 
 ## Basic Bash commands
 
 - `cd [directory]` - change directory into _[directory]_.
-- `ls [directory]` - list out the contents of the _[directory]_. _If no argument is given (you just type out `ls`), it defaults to the current working directory_.
-  - Note that files whose names begin with a dot `.` are hidden and ignored by `ls`.
+- `ls [directory]` - list out the contents of the _[directory]_. _If no argument is given (i.e. you just type out `ls`), it defaults to the current working directory_.
+  - Note that files whose names begin with a dot `.` are hidden and ignored by `ls` and file managers.
 - `pwd` - print working directory. Prints out the path of the current working directory.
 - `touch [file]` - create a file named _[file]_.
 - `mkdir [directory]` - make a directory named _[directory]_.
@@ -29,7 +29,7 @@ In Terminus, you performed spells, interacted with items, and traveled to differ
 - `rm [files]` - permanently removes the files.
 - `rmdir [directory]` - removes the directory, as long as it is empty.
 - `less [file]` - read and display the contents of the file.
-- `cat [files]` - concatenates (combines) and prints the files directly into the terminal. Useful for redirection.
+- `cat [files]` - concatenates (combines) and prints the files directly into the terminal. Useful for redirection (covered in the next module).
   - Ex. `cat file1 file2 file3` combines the contents of _file1_, _file2_, & _file3_ into a single output and prints it into the terminal.
 - `file [file]` - displays information about the _[file]_, including its file format.
   - In Linux, filenames don't require a file extension (i.e. _.txt_, _.png_, etc.) to define its file format (file type). That is determined in the bits & data within the file.
@@ -54,7 +54,7 @@ The `argument` is whatever you’re passing into the command. For example, `cd D
 
 ## The manual
 
-If you don’t know how to use a command, read the manual for that command by typing in **`man command`**, where **command** is the name of the command you would like to read about. It tells you the syntax for that command with its possible options (and what they do) and what to pass in for arguments. If you try using a command and something doesn’t work, or you have a question, read the manual.
+If you don’t know how to use a command, read the manual for that command by typing in **`man command`**, where `command` is the name of the command you would like to read about. It tells you the syntax for that command with its possible options (and what they do) and what to pass in for arguments. If you try using a command and something doesn’t work, or you have a question, read the manual.
 
 ## Autocompletion
 
@@ -78,6 +78,6 @@ When typing in arguments, you can use autocompletion with the **Tab** key. After
 
 [Click here](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/2_Intro_to_Command_Line/experience-file-creation.html) for the experiential learning exercise that puts what you’ve just learned into practice.
 
-[Click here](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/2_Intro_to_Command_Line/experience-treasure-hunt.html) to do the final experiential learning exercise of the module, “Treasure Hunt”, before moving on to [Module 3, “”](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/modules//).
+Then, complete the final experiential learning exercise of the module, [“Treasure Hunt”](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/2_Intro_to_Command_Line/experience-treasure-hunt.html), before moving on to the final reading, ["Superuser Do"](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/2_Intro_to_Command_Line/reading-sudo.html).
 
 <br>

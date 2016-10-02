@@ -44,8 +44,8 @@ Relative paths point to the file/directory starting from the current working dir
 
 [Click here](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/2_Intro_to_Command_Line/experience-paths.html) to complete the experiential learning exercise “Tracing paths”.
 
-Before moving on to the next reading, [click here](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/2_Intro_to_Command_Line/experience-terminus.html) to complete the experiential learning exercise “Terminus”.
+Before moving on to the next reading, do the experiential learning exercise [“Terminus”](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/2_Intro_to_Command_Line/experience-terminus.html).
 
-Then, [click here](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/2_Intro_to_Command_Line/reading-basic-bash.html) to move on to the final reading of this module, “Basic Bash”.
+Then, move on to the [“Intro to Bash”](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/2_Intro_to_Command_Line/reading-intro-to-bash.html).
 
 <br>

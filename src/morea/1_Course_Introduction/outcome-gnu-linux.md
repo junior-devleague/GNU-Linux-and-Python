@@ -6,4 +6,4 @@ morea_type: outcome
 morea_sort_order: 1
 ---
 
-Students will understand the difference between GNU, Linux, and GNU/Linux.
+Students will understand the difference between GNU, Linux, and GNU/Linux and its various distributions

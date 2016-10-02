@@ -19,6 +19,6 @@ _Note that everything you learn in Terminus is directly linked to Bash. The spel
 
 ---
 
-When finished, you’ll be ready for this module’s final reading, [“Basic Bash”](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/2_Intro_to_Command_Line/reading-basic-bash.html).
+When finished, you’ll be ready for the next reading, [“Intro to Bash”](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/2_Intro_to_Command_Line/reading-intro-to-bash.html).
 
 <br>

@@ -27,7 +27,7 @@ _Distributions_ (or just _distros_) are community/company-created OSes, using th
 
 ### Package Managers
 
-A package manager is a collection of software tools that automates installing, configuring, upgrading, and removing packages. They make it so you don't have to manually install everything yourself. They usually search a repository (repo) for the given package, and then execute a set of steps to install it.
+A package manager is a collection of software tools that automates installing, configuring, upgrading, and removing packages. They make it so you don't have to manually install everything yourself. They usually search through a repository (repo) for the given package, and then execute a set of steps to install it.
 
 Repos are servers located around the world that contain sets of packages. Generally, the package manager gets its packages from the repo whose name it shares.
 

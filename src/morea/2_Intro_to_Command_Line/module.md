@@ -9,7 +9,8 @@ morea_outcomes:
 morea_readings:
   - reading-shell
   - reading-paths
-  - reading-basic-bash
+  - reading-intro-to-bash
+  - reading-sudo
 morea_experiences:
   - experience-paths
   - experience-terminus

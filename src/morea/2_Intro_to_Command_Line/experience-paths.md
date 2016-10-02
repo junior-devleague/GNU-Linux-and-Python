@@ -20,7 +20,7 @@ When finished, show the instructor your answers and move on to the “Terminus�
 
 1. Starting from the root, write out the path to the `exams` directory.
 
-2. Starting in the `sarwar’ directory, write out the path to the `labs` directory.
+2. Starting in the `sarwar` directory, write out the path to the `labs` directory.
 
 3. Starting in `/usr/lib/`, write out the relative path to the `passwd` file.
 

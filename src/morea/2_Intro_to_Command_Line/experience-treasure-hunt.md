@@ -30,5 +30,5 @@ Basically, each directory will have a riddle or question you must solve. The sub
 
 ---
 
-When you are done with this exercise, show one of your instructors Linus the pirate’s hidden treasure and then [click here](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/2_Intro_to_Command_Line/reading-sudo.html) to move on to the final reading of this module, “Superuser Do”.
+When you are done with this exercise, show one of your instructors Linus the pirate’s hidden treasure and then [click here](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/2_Intro_to_Command_Line/reading-sudo.html) to move on to the final reading of this module, “Superuser Do”.
 

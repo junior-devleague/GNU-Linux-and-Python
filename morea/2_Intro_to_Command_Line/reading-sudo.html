@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Treasure Hunt | JDLA GNU/Linux & Python </title>
+  <title> Superuser Do | JDLA GNU/Linux & Python </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
 
@@ -75,35 +75,34 @@
       <li><a href="/JDLA-GNU-Linux-and-Python/">Home</a></li>
       <li><a href="/JDLA-GNU-Linux-and-Python/modules">Modules</a></li>
       <li><a href="/JDLA-GNU-Linux-and-Python/modules/intro-to-command-line">Intro to Command Line</a></li>
-      <li class="active">Treasure Hunt</li>
+      <li class="active">Superuser Do</li>
     </ol>
   </div>
 </div>
 
 
 <div class="container">
-  <h1 id="treasure-hunt">Treasure Hunt</h1>
+  <h1 id="superuser-do">Superuser Do</h1>
 
-<p>For our final exercise, you will use the commands you’ve learned, as well as critical thinking, logic, and mathematical ability (which are all crucial in programming) to traverse a tree of directories in a treasure hunt.</p>
+<p>When you try to execute a command in the terminal, you might get an error reading <em>Permission denied</em>. This happens because, as the error implies, you don’t have the correct permissions to execute that command and access certain files or directories.</p>
 
-<p>Download the necessary files by typing the following into your terminal:</p>
+<h2 id="root-vs-user-directories">Root vs user directories</h2>
 
-<p><code class="highlighter-rouge">cd ~/Downloads</code></p>
+<p>Trying to access or change something in a directory that isn’t yours (the user’s) as the user isn’t possible in Bash. The user files, aka anything you can access by just typing in the commands, are the files and directories inside of <code class="highlighter-rouge">/home/user/</code> (again, <code class="highlighter-rouge">user</code> is the name of the user, not actually <code class="highlighter-rouge">user</code>). Everything outside of <code class="highlighter-rouge">/home/user/</code> are root directories, which require <em>root</em> or <em>admin</em> permissions to access. You might have experience with this by running things as administrator in other OSes.</p>
 
-<p><code class="highlighter-rouge">git clone https://github.com/junior-devleague/TreasureHunt.git</code></p>
+<h2 id="root-access">Root access</h2>
 
-<h3 id="how-to-play">How to play</h3>
+<p>Every installation of Linux comes with a root account (called <code class="highlighter-rouge">root</code>) that has admin/root permissions and access to everything inside of root directories.</p>
 
-<p>Begin by <code class="highlighter-rouge">cd</code>’ing into the “<em>TreasureHunt</em>” directory and reading “<em>rules.txt</em>”.</p>
+<p>In order to gain root access, you must use the <code class="highlighter-rouge">sudo</code> command at the beginning of any command that attempts to access any non-user files. <code class="highlighter-rouge">sudo</code> stands for <em>superuser do</em>, which gives your user the superuser (or root account) permissions for the given command.</p>
 
-<p>Basically, each directory will have a riddle or question you must solve. The sub-directories are your possible answers, so when you solve a problem, <code class="highlighter-rouge">cd</code> into the answer (which is the name of the directory). Immediately <code class="highlighter-rouge">ls</code> and read the riddle/question every time you enter a new directory.</p>
-
-<p><strong>Note: Don’t just guess and randomly <code class="highlighter-rouge">cd</code>. There are false, misleading paths that will set you back by taking you deeper down to a dead end if you answer incorrectly.</strong></p>
+<p>For example, attempting to install the browser Chromium with <code class="highlighter-rouge">apt install chromium-browser</code> will download a bunch of files into the <code class="highlighter-rouge">/usr/bin/</code>, <code class="highlighter-rouge">/usr/share/</code>, and <code class="highlighter-rouge">/usr/lib/</code> directories, all of which are non-user directories (since they aren’t in <code class="highlighter-rouge">/home/junior/</code>). If you run the above command without root access, you will get a <em>Permission denied</em> error, because regular users can’t do anything that would cause the files within non-user directories to change. Thus, in order to install things, you need to begin the command with <code class="highlighter-rouge">sudo</code>, so the full command would be <code class="highlighter-rouge">sudo apt install chromium-browser</code>.</p>
 
 <hr />
 
-<p>When you are done with this exercise, show one of your instructors Linus the pirate’s hidden treasure and then <a href="https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/2_Intro_to_Command_Line/reading-sudo.html">click here</a> to move on to the final reading of this module, “Superuser Do”.</p>
+<p>This reading concludes the second module, “Intro to Command Line”. <a href="https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/modules/basic-bash">Click here</a> to move on to the next module, “Basic Bash”.</p>
 
+<p><br /></p>
 
 </div>
 

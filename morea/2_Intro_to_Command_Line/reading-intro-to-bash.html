@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Basic Bash | JDLA GNU/Linux & Python </title>
+  <title> Intro to Bash | JDLA GNU/Linux & Python </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
 
@@ -75,26 +75,26 @@
       <li><a href="/JDLA-GNU-Linux-and-Python/">Home</a></li>
       <li><a href="/JDLA-GNU-Linux-and-Python/modules">Modules</a></li>
       <li><a href="/JDLA-GNU-Linux-and-Python/modules/intro-to-command-line">Intro to Command Line</a></li>
-      <li class="active">Basic Bash</li>
+      <li class="active">Intro to Bash</li>
     </ol>
   </div>
 </div>
 
 
 <div class="container">
-  <h1 id="basic-bash">Basic Bash</h1>
+  <h1 id="intro-to-bash">Intro to Bash</h1>
 
 <p>Before this reading, <a href="https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/2_Intro_to_Command_Line/experience-terminus.html">follow this link</a> and complete the experiential learning exercise “Terminus”.</p>
 
-<p>In Terminus, you performed spells, interacted with items, and traveled to different locations. These are all translatable to Bash, with the spells as commands, items as files, and locations as directories.</p>
+<p>In Terminus, you performed spells, interacted with items, and traveled to different locations. These are all translatable to Bash, with the spells as commands, locations as directories, and items as files.</p>
 
 <h2 id="basic-bash-commands">Basic Bash commands</h2>
 
 <ul>
   <li><code class="highlighter-rouge">cd [directory]</code> - change directory into <em>[directory]</em>.</li>
-  <li><code class="highlighter-rouge">ls [directory]</code> - list out the contents of the <em>[directory]</em>. <em>If no argument is given (you just type out <code class="highlighter-rouge">ls</code>), it defaults to the current working directory</em>.
+  <li><code class="highlighter-rouge">ls [directory]</code> - list out the contents of the <em>[directory]</em>. <em>If no argument is given (i.e. you just type out <code class="highlighter-rouge">ls</code>), it defaults to the current working directory</em>.
     <ul>
-      <li>Note that files whose names begin with a dot <code class="highlighter-rouge">.</code> are hidden and ignored by <code class="highlighter-rouge">ls</code>.</li>
+      <li>Note that files whose names begin with a dot <code class="highlighter-rouge">.</code> are hidden and ignored by <code class="highlighter-rouge">ls</code> and file managers.</li>
     </ul>
   </li>
   <li><code class="highlighter-rouge">pwd</code> - print working directory. Prints out the path of the current working directory.</li>
@@ -109,7 +109,7 @@
   <li><code class="highlighter-rouge">rm [files]</code> - permanently removes the files.</li>
   <li><code class="highlighter-rouge">rmdir [directory]</code> - removes the directory, as long as it is empty.</li>
   <li><code class="highlighter-rouge">less [file]</code> - read and display the contents of the file.</li>
-  <li><code class="highlighter-rouge">cat [files]</code> - concatenates (combines) and prints the files directly into the terminal. Useful for redirection.
+  <li><code class="highlighter-rouge">cat [files]</code> - concatenates (combines) and prints the files directly into the terminal. Useful for redirection (covered in the next module).
     <ul>
       <li>Ex. <code class="highlighter-rouge">cat file1 file2 file3</code> combines the contents of <em>file1</em>, <em>file2</em>, &amp; <em>file3</em> into a single output and prints it into the terminal.</li>
     </ul>
@@ -141,7 +141,7 @@
 
 <h2 id="the-manual">The manual</h2>
 
-<p>If you don’t know how to use a command, read the manual for that command by typing in <strong><code class="highlighter-rouge">man command</code></strong>, where <strong>command</strong> is the name of the command you would like to read about. It tells you the syntax for that command with its possible options (and what they do) and what to pass in for arguments. If you try using a command and something doesn’t work, or you have a question, read the manual.</p>
+<p>If you don’t know how to use a command, read the manual for that command by typing in <strong><code class="highlighter-rouge">man command</code></strong>, where <code class="highlighter-rouge">command</code> is the name of the command you would like to read about. It tells you the syntax for that command with its possible options (and what they do) and what to pass in for arguments. If you try using a command and something doesn’t work, or you have a question, read the manual.</p>
 
 <h2 id="autocompletion">Autocompletion</h2>
 
@@ -176,7 +176,7 @@
 
 <p><a href="https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/2_Intro_to_Command_Line/experience-file-creation.html">Click here</a> for the experiential learning exercise that puts what you’ve just learned into practice.</p>
 
-<p><a href="https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/2_Intro_to_Command_Line/experience-treasure-hunt.html">Click here</a> to do the final experiential learning exercise of the module, “Treasure Hunt”, before moving on to <a href="https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/modules//">Module 3, “”</a>.</p>
+<p>Then, complete the final experiential learning exercise of the module, <a href="https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/2_Intro_to_Command_Line/experience-treasure-hunt.html">“Treasure Hunt”</a>, before moving on to the final reading, <a href="https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/2_Intro_to_Command_Line/reading-sudo.html">“Superuser Do”</a>.</p>
 
 <p><br /></p>
 
@@ -196,16 +196,16 @@ junior@devleague.com</p>
 
       
       <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: lumen)<br>
-        Last update on: <span>2016-09-20 12:38:22 -1000</span></p>
+        Last update on: <span>2016-10-01 14:43:20 -1000</span></p>
 
       <p style="margin: 0">
         
         2 modules
         
-        | 3 outcomes
+        | 4 outcomes
         
         
-        | 7 readings
+        | 8 readings
         
         
         | 4 experiences

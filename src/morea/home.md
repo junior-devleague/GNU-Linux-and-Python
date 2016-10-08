@@ -22,6 +22,6 @@ This course is for students with an interest in computer systems. Self-directed 
 
 ### Let's begin!
 
-Let's start off by reading through [Module 1's](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/modules/course-introduction/) first reading, ["How to use this site"](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/1_Course_Introduction/reading-guided-tour.html)
+Let's start off by reading through [Module 1's](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/modules/course-introduction/) first reading, ["Academy Rules & How to Use this Site"](https://junior-devleague.github.io/JDLA-GNU-Linux-and-Python/morea/1_Course_Introduction/reading-guided-tour.html)
 
 <br>

@@ -8,10 +8,11 @@ morea_outcomes:
   - outcome-basic-commands
 morea_readings:
   - reading-unix-directories
-  - reading-wildcards
   - reading-redirection
   - reading-pipelines
+  - reading-expansions
   - reading-echo
+  - reading-operators
   - reading-aliases
   - reading-permissions
   - reading-archiving

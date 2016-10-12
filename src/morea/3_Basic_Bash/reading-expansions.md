@@ -1,14 +1,14 @@
 ---
-title: "Wildcards"
+title: "Expansions"
 published: true
-morea_id: reading-wildcards
+morea_id: reading-expansions
 morea_summary: ""
 morea_type: reading
-morea_sort_order: 10
+morea_sort_order: 12
 morea_labels:
  - Bash
 ---
 
-# Wildcards
+# Expansions
 
 

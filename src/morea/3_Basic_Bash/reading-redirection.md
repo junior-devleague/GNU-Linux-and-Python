@@ -1,5 +1,5 @@
 ---
-title: "Redirection"
+title: "Redirection & Pipelines"
 published: true
 morea_id: reading-redirection
 morea_summary: ""
@@ -9,6 +9,6 @@ morea_labels:
  - Bash
 ---
 
-# Redirection
+# Redirection & Pipelines
 
 

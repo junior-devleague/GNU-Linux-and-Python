@@ -9,13 +9,13 @@ morea_outcomes:
 morea_readings:
   - reading-unix-directories
   - reading-redirection
-  - reading-pipelines
   - reading-expansions
   - reading-echo
   - reading-operators
   - reading-aliases
   - reading-permissions
   - reading-archiving
+  - reading-find
 morea_experiences:
   - experience-wildcards
   - experience-redirection
